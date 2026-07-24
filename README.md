@@ -1,44 +1,88 @@
-$ python anatta_screen.py
 
-          _________________
-         |#################|
-         |##  🛡️ ANATTA  ##|
-         |#################|
-         |_______|_______|
-                 |
-          _______|_______
-     [ SCREEN SHIELD v4.7 ]
+### ═══ ◆ ANTI-CAPTURE & OVERLAY PROTECTION ◆ ═══
+### *Secure Desktop Environment | Capture Blocked*
 
-   ANATTA-SCREEN: ANTI-CAPTURE & OVERLAY PROTECTION
+</div>
 
-[SYNC] Engaging DisplayAffinity Protocol... ▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-[+] Secure Desktop Environment Established. Capture Blocked.
+---
 
-[!] ENTERING PROTECTED CUI VIEWING ZONE...
+## 📋 TABLE OF CONTENTS
 
-[14:23:45] User_Action : Key_Press: PrintScreen
+- [Overview](#overview)
+- [Features](#features)
+- [Architecture](#architecture)
+- [Protection Mechanisms](#protection-mechanisms)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Forensic Overlay](#forensic-overlay)
+- [Configuration](#configuration)
+- [Security Model](#security-model)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
 
-!!! CAPTURE ATTEMPT DETECTED: SHIELDING ACTIVE !!!
-│ ACTION : Blanking Framebuffer via OS API
-│ RESULT : [ BLACK SCREEN CAPTURED ]
-└────────────────────────────────────────────────────
+---
 
-[14:23:47] System_Poll : Active_Window: CUI_Viewer.exe
-[*] Applying Dynamic Forensic Overlay...
-    >> WATERMARK: Raj_Gautam | 10.0.4.55 | SCR-4F2A7B <<
-    (Visible only on high-res capture/camera shots)
+## OVERVIEW
 
-[14:23:49] Process_Alert : SnippingTool.exe started
+**ANATTA-SCREEN** (derived from the Buddhist concept of "non-self") is an enterprise-grade **anti-capture and overlay protection system** designed to prevent unauthorized screenshots and screen recording of sensitive CUI (Controlled Unclassified Information) data.
 
-!!! CAPTURE ATTEMPT DETECTED: SHIELDING ACTIVE !!!
-│ ACTION : Blanking Framebuffer via OS API
-│ RESULT : [ BLACK SCREEN CAPTURED ]
-└────────────────────────────────────────────────────
+### Core Objectives
 
-[14:23:51] User_Action : Right-Click: Save Image As
+- **Prevent Visual Data Theft**: Block PrintScreen, Snipping Tool, and recording attempts
+- **Real-Time Threat Detection**: Monitor system events and user actions
+- **Forensic Traceability**: Dynamic watermarking for audit trails
+- **Zero-Trust Architecture**: Continuous protection of sensitive applications
 
-[*] Applying Dynamic Forensic Overlay...
-    >> WATERMARK: Raj_Gautam | 10.0.4.55 | SCR-4F2A7B <<
-    (Visible only on high-res capture/camera shots)
+### Key Benefits
 
-[✔] Protected session ended. Screen affinity reset.
+| Capability | Value |
+|------------|-------|
+| **Anti-Capture** | Blocks screenshots and screen recording |
+| **Event Monitoring** | Real-time detection of capture attempts |
+| **Forensic Overlay** | Watermarking for user traceability |
+| **Session Tracking** | Unique session IDs for auditing |
+| **Zero Dependencies** | Pure Python, no external libraries |
+
+---
+
+## FEATURES
+
+### Core Capabilities
+
+#### 🛡️ Anti-Capture Engine
+- Blocks PrintScreen key press events
+- Prevents Snipping Tool execution
+- Detects screen recording attempts
+- Disables clipboard capture
+
+#### 🔍 Event Monitoring System
+- Real-time system event detection
+- Process monitoring for capture tools
+- User action tracking
+- Active window monitoring
+
+#### 🏷️ Forensic Overlay
+- Dynamic user identification
+- Session ID tracking
+- IP address logging
+- Timestamp verification
+
+#### 📊 Session Management
+- Unique session identifier generation
+- Activity logging
+- Audit trail maintenance
+- Session isolation
+
+### Technical Specifications
+
+- **Language**: Python 3.8+
+- **Dependencies**: None (Pure Standard Library)
+- **Platform**: Cross-platform (Linux, macOS, Windows)
+- **Interface**: Terminal-based with ANSI colors
+
+---
+
+## ARCHITECTURE
+
+### System Architecture
